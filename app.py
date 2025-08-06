@@ -39,7 +39,55 @@ cuestionario = {
         {"preg": "¿Cómo reducir riesgo mediante diversificación?", "opciones": ["Concentrar inversiones", "Repositorio", "Portafolio diversificado", "Apalancarse"], "respuesta": "Portafolio diversificado", "explicacion": "Diversificar reduce la exposición a la falla de un solo activo."},
         {"preg": "¿Qué es riesgo operativo?", "opciones": ["Impago", "Hackeo", "Fraude o errores internos", "Cambio de tasas"], "respuesta": "Fraude o errores internos", "explicacion": "Incluye fallas tecnológicas, humanos o procesos internos."},
         {"preg": "¿Qué riesgo daña la imagen institucional?", "opciones": ["Mercado", "Liquidez", "Reputacional", "Legal"], "respuesta": "Reputacional", "explicacion": "Afecta cómo el público y clientes perciben a la entidad."}
-    ]
+    ],
+    "Matemáticas Financieras": [
+    {"preg": "¿Qué representa la tasa de interés?", "opciones": ["Costo del dinero en el tiempo", "Costo del producto", "Costo del impuesto", "Valor presente neto"], "respuesta": "Costo del dinero en el tiempo", "explicacion": "La tasa de interés mide cuánto se paga o gana por usar dinero en un periodo."},
+    {"preg": "¿Qué es el valor presente?", "opciones": ["Valor que tendrá en el futuro", "Valor actual de un flujo futuro", "Valor acumulado con interés", "Costo del activo"], "respuesta": "Valor actual de un flujo futuro", "explicacion": "El valor presente permite conocer cuánto vale hoy un dinero que se recibirá después."},
+    {"preg": "¿Qué es un interés compuesto?", "opciones": ["Interés sobre capital inicial", "Interés sobre interés generado", "Interés sobre cuota fija", "Sin capitalización"], "respuesta": "Interés sobre interés generado", "explicacion": "El interés compuesto acumula intereses generados en periodos anteriores."},
+    {"preg": "¿Cuál fórmula se usa para valor futuro con interés compuesto?", "opciones": ["VF = VP(1+it)", "VF = VP(1+i)^n", "VP = VF/(1+i)", "VF = i/n"], "respuesta": "VF = VP(1+i)^n", "explicacion": "Esa es la fórmula clásica del valor futuro compuesto."},
+    {"preg": "¿Qué ocurre si la tasa nominal es 12% y capitaliza mensualmente?", "opciones": ["Tasa efectiva anual es 12%", "Tasa efectiva anual es mayor", "Tasa baja", "No cambia nada"], "respuesta": "Tasa efectiva anual es mayor", "explicacion": "La capitalización aumenta el valor efectivo de la tasa nominal."}
+],
+    "Renta Fija": [
+    {"preg": "¿Qué es un bono?", "opciones": ["Acción de empresa", "Derecho a voto", "Instrumento de deuda", "Título sin valor"], "respuesta": "Instrumento de deuda", "explicacion": "Es un título que representa una deuda que será pagada en el futuro con intereses."},
+    {"preg": "¿Qué es la tasa cupón?", "opciones": ["Rentabilidad anual de una acción", "Pago periódico del bono", "Costo del bono", "Valor residual"], "respuesta": "Pago periódico del bono", "explicacion": "La tasa cupón es el interés que paga un bono periódicamente."},
+    {"preg": "¿Qué afecta el precio de un bono en el mercado secundario?", "opciones": ["Tasa de inflación", "Tasa de mercado", "PIB", "Emisión de acciones"], "respuesta": "Tasa de mercado", "explicacion": "Si sube la tasa del mercado, el precio del bono suele bajar, y viceversa."},
+    {"preg": "¿Qué es la duración de un bono?", "opciones": ["Vida útil", "Tiempo hasta el pago de cupón", "Promedio ponderado del plazo de los flujos", "Tasa fija"], "respuesta": "Promedio ponderado del plazo de los flujos", "explicacion": "La duración mide la sensibilidad del precio del bono ante cambios en tasas."},
+    {"preg": "¿Qué riesgo tiene la renta fija?", "opciones": ["Ninguno", "Riesgo de crédito y tasa de interés", "Solo riesgo de mercado", "Riesgo operacional"], "respuesta": "Riesgo de crédito y tasa de interés", "explicacion": "Existe riesgo de impago y de que las tasas afecten el precio del bono."}
+],
+    "Renta Variable": [
+    {"preg": "¿Qué instrumento representa la renta variable?", "opciones": ["Bono", "Acción", "CDT", "TES"], "respuesta": "Acción", "explicacion": "Las acciones no tienen una rentabilidad fija, por eso son renta variable."},
+    {"preg": "¿Qué derecho otorgan las acciones ordinarias?", "opciones": ["Pago fijo", "Participar en utilidades y voto", "Redención garantizada", "Tasa de interés fija"], "respuesta": "Participar en utilidades y voto", "explicacion": "El accionista tiene derecho a recibir dividendos y a votar en asambleas."},
+    {"preg": "¿Qué es el dividendo?", "opciones": ["Interés por deuda", "Ganancia de capital", "Distribución de utilidades", "Precio de venta"], "respuesta": "Distribución de utilidades", "explicacion": "Es el pago que hace la empresa a los accionistas con sus utilidades."},
+    {"preg": "¿Qué riesgo predomina en renta variable?", "opciones": ["Riesgo tasa", "Riesgo mercado", "Riesgo operativo", "Riesgo legal"], "respuesta": "Riesgo mercado", "explicacion": "Las acciones fluctúan mucho por cambios de mercado, confianza, noticias, etc."},
+    {"preg": "¿Qué es la valorización de una acción?", "opciones": ["Caída en el precio", "Pago de intereses", "Aumento en su precio de mercado", "Reducción de tasa"], "respuesta": "Aumento en su precio de mercado", "explicacion": "Valorización significa que la acción vale más que cuando se compró."}
+],
+    "Derivados": [
+    {"preg": "¿Qué es un derivado financiero?", "opciones": ["Título de deuda", "Acción preferencial", "Instrumento cuyo valor depende de otro", "Crédito bancario"], "respuesta": "Instrumento cuyo valor depende de otro", "explicacion": "Su valor deriva del precio de otro activo (subyacente)."},
+    {"preg": "¿Cuál es un tipo de derivado?", "opciones": ["Bonos", "Forward", "Certificado de depósito", "TES"], "respuesta": "Forward", "explicacion": "Los Forward son contratos que fijan precio futuro de compra/venta."},
+    {"preg": "¿Para qué se usan los derivados?", "opciones": ["Evadir impuestos", "Asegurar precios o especular", "Reducir liquidez", "Comprar bonos"], "respuesta": "Asegurar precios o especular", "explicacion": "Pueden ser usados para cubrir riesgos o buscar rentabilidad."},
+    {"preg": "¿Qué riesgo manejan los derivados?", "opciones": ["Riesgo climático", "Riesgo operacional", "Riesgo de contraparte y mercado", "Riesgo logístico"], "respuesta": "Riesgo de contraparte y mercado", "explicacion": "Puede que la contraparte no cumpla o el mercado varíe."},
+    {"preg": "¿Cuál es un mercado donde se negocian derivados en Colombia?", "opciones": ["Bolsa Nacional de Derivados", "BVC (Bolsa de Valores de Colombia)", "SIC", "RNVE"], "respuesta": "BVC (Bolsa de Valores de Colombia)", "explicacion": "La BVC tiene un sistema de negociación de derivados estandarizados."}
+],
+    "Fondos de Pensiones": [
+    {"preg": "¿Qué función tienen los fondos de pensiones?", "opciones": ["Financiar EPS", "Administrar ahorro para retiro", "Pagar impuestos", "Intermediar valores"], "respuesta": "Administrar ahorro para retiro", "explicacion": "Su propósito principal es garantizar un ingreso al momento del retiro laboral."},
+    {"preg": "¿Qué régimen existe en Colombia?", "opciones": ["Solidario", "Privado", "Público y privado", "Gratuito"], "respuesta": "Público y privado", "explicacion": "Colombia tiene régimen público (Colpensiones) y privado (fondos AFP)."},
+    {"preg": "¿Qué es la doble asesoría?", "opciones": ["Dos pensiones", "Asesoría para migrar entre regímenes", "Asesoría del empleador", "Dos asesores del mismo fondo"], "respuesta": "Asesoría para migrar entre regímenes", "explicacion": "Se debe dar asesoría completa si alguien quiere cambiar entre fondo privado y público."},
+    {"preg": "¿Cuál es un objetivo del multifondos?", "opciones": ["Unificar rentabilidad", "Ofrecer diferentes perfiles de riesgo", "Eliminar aportes", "Limitar retiros"], "respuesta": "Ofrecer diferentes perfiles de riesgo", "explicacion": "Permite al afiliado elegir el fondo según su edad y tolerancia al riesgo."},
+    {"preg": "¿Qué entidad pública administra el fondo pensional?", "opciones": ["Bancolombia", "Superfinanciera", "Colpensiones", "MinHacienda"], "respuesta": "Colpensiones", "explicacion": "Colpensiones es el administrador público del sistema pensional colombiano."}
+],
+    "Fondos de Inversión Colectiva": [
+    {"preg": "¿Qué es un FIC?", "opciones": ["Cuenta de ahorros", "Portafolio colectivo administrado", "Acción preferente", "Bonos garantizados"], "respuesta": "Portafolio colectivo administrado", "explicacion": "Son vehículos de inversión donde varios inversionistas aportan recursos gestionados profesionalmente."},
+    {"preg": "¿Quién administra los FIC?", "opciones": ["Superfinanciera", "Administradoras autorizadas", "Empresas", "Usuarios"], "respuesta": "Administradoras autorizadas", "explicacion": "Deben ser administradoras vigiladas por la Superfinanciera."},
+    {"preg": "¿Qué documento describe el FIC?", "opciones": ["Pagaré", "Reglamento del fondo", "Factura", "Acta de constitución"], "respuesta": "Reglamento del fondo", "explicacion": "Allí se especifica el tipo de inversiones, riesgos, comisiones, etc."},
+    {"preg": "¿Qué ventaja tiene un FIC?", "opciones": ["Menor control", "Inversión especulativa", "Diversificación y administración profesional", "Riesgo ilimitado"], "respuesta": "Diversificación y administración profesional", "explicacion": "El inversionista accede a una cartera gestionada por expertos y con bajo riesgo individual."},
+    {"preg": "¿Qué tipo de FIC puede existir?", "opciones": ["Solo renta fija", "Renta fija y variable", "Solo acciones", "Crédito corporativo"], "respuesta": "Renta fija y variable", "explicacion": "Pueden invertir en distintos tipos de activos dependiendo del objetivo del fondo."}
+],
+
+
+
+
+
+
 }
 
 componente = st.selectbox("📘 Elige un componente:", list(cuestionario.keys()))
@@ -67,4 +115,5 @@ if st.button("📊 Ver resultados"):
         st.markdown(f"- ✅ Respuesta correcta: {pregunta['respuesta']}")
         st.markdown(f"- 📘 Explicación: {pregunta['explicacion']}")
         st.write("")
+
 
